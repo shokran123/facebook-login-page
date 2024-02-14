@@ -1,0 +1,118 @@
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+body{
+  font-family: Arial;
+  background-color: rgb(240, 240, 240);
+}
+.first-section{
+  width: 400px;
+  margin-left: 150px;
+  display: inline-block;
+}
+.logo{
+  width: 200px;
+  height: 50px;
+}
+.img{
+  width: 100%;
+  object-fit: contain;
+}
+.text1{
+  margin-left: 17px;
+}
+.recent-logins{
+  margin-bottom: 0;
+  margin-top: 12px;
+  font-size: 37px;
+}
+.add-acount{
+  margin-top: 4px;
+  color: gray;
+  font-size: 15px;
+}
+.acounts{
+  display: flex;
+  flex-direction: row;
+  margin-left: 17px;
+  margin-top: 30px;
+}
+.acount1{
+  border-color: rgb(182, 182, 182);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  width: 150px;
+  height: 200px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.acount1, .acount2{
+  transition: 0.15s;
+}
+.go{
+  text-decoration: none;
+  color: rgb(87, 87, 87);
+}
+.acount1:hover, .acount2:hover{
+  box-shadow: rgb(0, 0, 0, 0.25) 0px 0px 0px 1px;
+}
+.img1{
+  width: 150px;
+  height: 150px;
+}
+.profile{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+.name{
+  width: 100%;
+  height: 50px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.shokran{
+  margin: 0;
+  margin-left: 35px;
+  margin-top: 14px;
+  font-size: 20px;
+  color: rgb(87, 87, 87);
+  font-weight: lighter;
+}
+.acount2{
+  border-color: rgb(182, 182, 182);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  width: 150px;
+  height: 200px;
+}
+.add-profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(245, 246, 247);
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+.add-name1{
+  margin: 0;
+  margin-left: 23px;
+  margin-top: 14px;
+  font-size: 20px;
+  color: rgb(24, 119, 242);
+}
+.add-image{
+  width: 39px;
+  object-fit: contain;
+}
